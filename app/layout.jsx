@@ -1,6 +1,6 @@
 import Navbar from "../components/Navbar"
  import {Aleo} from 'next/font/google'
-
+import "./global.css"
 export const metadata={
   title:"Mi tienda con NextJs - HomePage",
   description:"Esta es la página principal de mi tienda",

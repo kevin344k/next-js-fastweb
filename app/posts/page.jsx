@@ -1,9 +1,9 @@
 import PostCrad from "@/components/PostCrad";
-
+import "./posts.css"
 async function loadPosts(){
     const res=await fetch("https://jsonplaceholder.typicode.com/posts")
     const data=await res.json()
-  await new Promise((resolve)=>setTimeout(resolve,8000))
+
     return data
 }
 
@@ -12,7 +12,7 @@ async  function PostPage() {
   console.log(posts);
   
   return (
-    <div>{
+    <div className="grid">{
     
     posts.map(post=>(
     <PostCrad key={post.id} post={post}></PostCrad>
