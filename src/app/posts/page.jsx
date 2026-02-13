@@ -1,4 +1,4 @@
-import PostCrad from "@/components/PostCrad";
+import PostCrad from "@/components/PostCrad"    
 import "./posts.css"
 async function loadPosts(){
     const res=await fetch("https://jsonplaceholder.typicode.com/posts")

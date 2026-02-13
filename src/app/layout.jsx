@@ -1,4 +1,4 @@
-import Navbar from "../components/Navbar"
+import Navbar from "@/components/Navbar"
  import {Aleo} from 'next/font/google'
 import "./global.css"
 export const metadata={
